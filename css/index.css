@@ -65,6 +65,29 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+.nav-top {
+   margin-left: 800px;
+position: relative;
+bottom: 20px;
+
+}
+.nav-top a{
+    text-decoration: none;
+color: black;
+padding-left: 40px;
+}
+.nav-top a:hover{
+    color: green;
+}
+#back{
+    max-width: 100%;
+    background-image: url("../img/jumbo.jpg");
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
 
 .container {
     width: 800px;
@@ -89,7 +112,9 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.boxes, .box, .cap{
+    color: green;
+}
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -143,4 +168,76 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+footer nav a:hover{
+    color: green;
+}
+/*  about */
+
+#back2{
+    max-width: 100%;
+    background-image: url("../img/jumbo-about.png");
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#pictures{
+    margin-left: 500px;
+    width: 50%;
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-around;
+   flex-wrap: wrap;
+   align-items: center;
+  
+}
+button{
+    border-radius: 20px;
+    margin-left: 150px;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+}
+#down{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.fin h3{
+    text-align: center;
+}
+.fin p{
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.ends{
+    margin-left: 500px;
+}
+.beginning{
+    margin-left: 900px;
+    position: relative;
+    bottom: 20px;
+    
+}
+.beginning a{
+    text-decoration: none;
+    color: black;
+
+}
+.beginning a:hover{
+    color: green;
+}
+.logo img{
+    margin-left: 600px;
+}
+.ends a:hover{
+    color: green;
+
+}
+.nav-top2 a{
+    padding-left: 40px;
 }
